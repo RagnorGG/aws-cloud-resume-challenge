@@ -7,7 +7,7 @@ on:
 
 jobs:
     deploy:
-        runs-on: ubuntu-latest
+        runs-on: LEGION
         steps:
             - uses: actions/checkout@master
             - uses: jakejarvis/s3-sync-action@master
