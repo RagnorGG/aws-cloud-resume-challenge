@@ -31,6 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch((error) => {
             console.error("Error fetching global counter:", error);
-            counterElement.textContent = "Error loading counter.";
+            counterElement.textContent = "Lambda function is currently stopped.";
         });
 });
