@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // --- Fetch server (global) visit count from Lambda ---
     fetch(
-        "https://rgagltzheuob2vdx3vbti7skwu0xmjgi.lambda-url.us-east-1.on.aws/",
+        "https://tr6h372lbnwluvi7w4xobgzu7i0sdyng.lambda-url.us-east-1.on.aws/",
         {
             method: "GET",
         }
